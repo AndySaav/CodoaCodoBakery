@@ -247,7 +247,9 @@ select {
 fieldset, legend, label, input, p,
 .form-group, .mb-3 {
     background-color: var(--color-claro);
+    width: 95%;
 }
+
 
 .all-products {
     background-color: var(--color-claro);
@@ -688,6 +690,12 @@ footer img {
         height: 60px;
         padding: 0px;
         background-color: transparent;
+    }
+
+    .logo a {
+        align-items: center; /* Alinear verticalmente */
+        text-decoration: none; /* Eliminar subrayado del enlace */
+        color: inherit; /* Mantener el color del texto */
     }
 
     h1 {

@@ -52,3 +52,7 @@
 
     padding: 5px;
 }
+.mb-3 textarea {
+    width: 100%; /* El textarea ocupará el 100% del ancho del contenedor */
+    box-sizing: border-box; /* Incluir padding y border en el ancho total */
+}
